@@ -1,0 +1,109 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Apoc-Normal-Trial';
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(255,255,255);
+    background: linear-gradient(50deg, rgba(255,255,255,1) 0%, rgb(148, 161, 201) 30%, rgb(3, 4, 40) 100%);
+}
+
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+  header h1 {
+    font-family: 'Apoc-Normal-Trial';
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  #question {
+    top:50 vh;
+    font-family: 'Haas Grot Disp R Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  button {
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    margin: 0 8px;
+    line-height: 35px; 
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: white; 
+    color: black;
+    font-family: 'Apoc-Revelations-Trial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    mix-blend-mode: lighten;
+}
+  
+  #continueBtn {
+    height: 40px;
+    /* padding: 2px; */
+    /* color: white; */
+    border: none;
+    cursor: pointer;
+    margin: 0 8px;
+    line-height: 35px; 
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: white; 
+    color: black;
+    font-family: 'Apoc-Revelations-Trial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    mix-blend-mode: lighten;
+  }
+  
+  button:active {
+    background-color: #004085;
+  }
+  
+  #thankYouMsg {
+    top:50 vh;
+    font-family: 'Haas Grot Disp R Trial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    color: white;
+    /* line-height: 12px; */
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  #continueBtn {
+    display: none;
+  }
+
+
+  
